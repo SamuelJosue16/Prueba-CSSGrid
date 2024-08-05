@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom , #333 , black);
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    text-align: center;
+    height: 200px;
+    background: linear-gradient(to top, rgb(7, 7, 116), black);
+}
+
+.container{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    
+}
+
+.src{
+    width: 600px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-left: 30px;
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+
+.btn{
+    width: 90px;
+    height: 70px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.btn2{
+    width: 400px;
+    height: 70px;
+    font-size: 2rem;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.btn3{
+    width: 200px;
+    height: 80px;
+    position: relative;
+    left: 1100px;
+    bottom: 75px;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    justify-items: center;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    justify-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    justify-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.house{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 5px white solid;
+    border-bottom: 5px white solid;
+}
+
+.img2{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+.src{
+    font-size: 2rem;
+}
+
+.titlecont{
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.divbarcont{
+    width: 100%;
+}
+
+.a:hover{
+    background: white;
+    color: black;
+    padding-right: 70%;
+
+}
+
+.b:hover{
+    background: white;
+    color: black;
+    padding-right: 60%;
+
+}
+
+.c:hover{
+    background: white;
+    color: black;
+    padding-right: 70%;
+
+}
+
+.d:hover{
+    background: white;
+    color: black;
+    padding-right: 60%;
+
+}
+
+.e:hover{
+    background: white;
+    color: black;
+    padding-right: 70%;
+
+}
+
+.f:hover{
+    background: white;
+    color: black;
+    padding-right: 70%;
+
+}
+
+.btn2:hover{
+    width: 100%;
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+
+.btn3:hover{
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+
+
+
+@media (max-width: 1100px){
+    body{
+        background-color: black;
+    }
+
+    .grid1{
+        position: relative;
+        right: 0vw;
+    }
+
+    .grid2{
+        position: relative;
+        right: 0pvw;
+    }
+
+    .img2{
+        width: 250px;
+        height: 350px;
+    }
+
+    .src{
+        width: 250px;
+        height: 40px;
+        position: relative;
+        top: 60px;
+        font-size: 1.3rem;
+
+    }
+
+   
+
+    .btn{
+        height: 40px;
+        position: relative;
+        top: 60px;
+        font-size: 1.3rem;
+    }
+
+    .btn2{
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+
+    .btn3{
+        width: 100px;
+        height: 40px;
+        position: relative;
+        left: 70px;
+        top: -50px;
+        font-size: 1.3rem;
+        
+    }
+
+
+    .titlecont{
+        font-size: 2rem;
+    }
+
+    .footer{
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+
+    }
+
+    .titlefooter{
+        font-size: 1rem;
+    }
+
+    a{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        width: 300px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    a:hover{
+        background: linear-gradient(to bottom, black, white);
+        padding-right: 70%;
+        border-top: white solid 5px;
+    
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: 200px;
+        top: 20px;
+        
+    }
+}
+
+.src:hover{
+    border: white 5px solid;
+    background-color: black;
+    color: white;
+}
+
+
+
+.img2:hover{
+    border: 10px solid white;
+    box-shadow: 1px 4px 120px 4px rgba(255, 255, 255, 0.678);
+}
